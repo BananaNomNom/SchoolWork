@@ -39,9 +39,9 @@ class urlData:
         self.urlFound = []
 
     def toString(self):
-        print("These are the url's found withing the article: \n\t")
+        print("These are the url's found withing the article:")
         for article in urlFound:
-            print(article)
+            print("\t" + article)
         print()
         print("There are " + amazonAd + " Amazon Ads in this article.")
         print()
