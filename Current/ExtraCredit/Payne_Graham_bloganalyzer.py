@@ -3,6 +3,13 @@
 #12/4/2022
 #Payne_Graham_bloganalyzer.py
 
+# TODO:
+# 1. Convert to regex from beautiful soup for the article finder
+# 2. properly find the amazon ads
+# 3. format output for assignment
+#
+#
+
 def header_footer(input):
     tempInt = 0
     for item in input:
@@ -29,6 +36,7 @@ header_footer(header)
 #Code Start
 
 #importing
+from urllib.error import HTTPError
 import requests
 from bs4 import BeautifulSoup
 
@@ -40,20 +48,26 @@ class urlData:
 
     def toString(self):
         print("These are the url's found withing the article:")
-        for article in urlFound:
+        for article in self.urlFound:
             print("\t" + article)
         print()
-        print("There are " + amazonAd + " Amazon Ads in this article.")
+        print("There are " + str(self.amazonAd) + " Amazon Ads in this article.")
         print()
-        print("There are " + googleAd + " Google Ads in this article.")
+        print("There are " + str(self.googleAd) + " Google Ads in this article.")
 
 #function to find all article urls from a page.
 #returns a list
 def articleFinder(inputURL):
-    #requests from the url the html
-    r = requests.get(inputURL)
 
-    #parses it using beautifulsoup
+    try:    
+        #requests from the url the html
+        r = requests.get(inputURL)
+
+        #parses it using beautifulsoup
+    except HTTPError as e:
+        print(e.response.text)
+
+    #parses the requested text into html
     soup = BeautifulSoup(r.text, 'html.parser')
 
     #empty list for urls found from the root page
@@ -68,28 +82,45 @@ def articleFinder(inputURL):
 
     return articles
 
-def articleScanner(inputURL)
+def articleScanner(inputURL):
 
     print("Scraping URL: " + inputURL)
 
-    #requests from the url the html
-    r = requests.get(inputURL)
+    try:    
+        #requests from the url the html
+        r = requests.get(inputURL)
 
-    #parses it using beautifulsoup
+        #parses it using beautifulsoup
+    except HTTPError as e:
+        print(e.response.text)
+
+
+
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    parsedData = new urlData()
+    parsedData = urlData()
+
+    #finds all <article> elements
+    for article in soup.find_all('article'):
+        #finds the first <a> element child of the <article> element
+        #& gets the url from the <a> element from the article.
+        try:
+            print("i tried")
+            articleURL = article.find('a', recursive=True).get('href')
+            parsedData.append(articleURL)
+        except AttributeError:
+            pass
+        
 
     #counts all <div> tags that have the class 'adsbygoogle'
-    for tempgoogAd in soup.find_all('div',{'class':'adsbygoogle'})
+    for tempgoogAd in soup.find_all('ins',{'class':'adsbygoogle'}):
         parsedData.googleAd += 1
-        adTotalGoogle += 1
 
     #for tempamazAd in soup.find_all('a')
     #    if amazAd.get('href') == ""
-    #         adTotalAmazon += 1
-
     parsedData.toString()
+    print()
+    return parsedData
 
 #function that will scan a url and provide a count of
 #few variables to start it up
@@ -101,16 +132,24 @@ rootURL = "https://grith-llc.com/blog/"
 
 #scans the main page of articles
 tierOneArticles = articleFinder(rootURL)
+print("Here are the main pages blogs found: ")
 for article in tierOneArticles:
-    articleScanner(article)
-    numArticleTotal += 1
+    print('\t' + article)
 
 print()
-print("there are a total of " + numArticleTotal + "articles.")
+
+for article in tierOneArticles:
+    tempVar = articleScanner(article)
+    adTotalAmazon += tempVar.amazonAd
+    adTotalGoogle += tempVar.googleAd
+    numArticleTotal += len(tempVar.urlFound) + 1
+
 print()
-print("there are a total of " + adTotalAmazon + "Amazon Ads.")
+print("there are a total of " + str(numArticleTotal) + " articles.")
 print()
-print("there are a total of " + adTotalGoogle + "Google Ads.")
+print("there are a total of " + str(adTotalAmazon) + " Amazon Ads.")
+print()
+print("there are a total of " + str(adTotalGoogle) + " Google Ads.")
 
 footer = ['Extra Credit Program','Mission Complete']
 header_footer(footer)
