@@ -40,7 +40,12 @@ class urlData:
 
     def toString(self):
         print("These are the url's found withing the article: \n\t")
-
+        for article in urlFound:
+            print(article)
+        print()
+        print("There are " + amazonAd + " Amazon Ads in this article.")
+        print()
+        print("There are " + googleAd + " Google Ads in this article.")
 
 #function to find all article urls from a page.
 #returns a list
@@ -64,6 +69,9 @@ def articleFinder(inputURL):
     return articles
 
 def articleScanner(inputURL)
+
+    print("Scraping URL: " + inputURL)
+
     #requests from the url the html
     r = requests.get(inputURL)
 
@@ -75,25 +83,34 @@ def articleScanner(inputURL)
     #counts all <div> tags that have the class 'adsbygoogle'
     for tempgoogAd in soup.find_all('div',{'class':'adsbygoogle'})
         parsedData.googleAd += 1
+        adTotalGoogle += 1
 
-    for tempamazAd in soup.find_all('a')
-        if amazAd.get('href') == 
+    #for tempamazAd in soup.find_all('a')
+    #    if amazAd.get('href') == ""
+    #         adTotalAmazon += 1
 
-    return parsedData
+    parsedData.toString()
 
 #function that will scan a url and provide a count of
 #few variables to start it up
 adTotalAmazon = 0
 adTotalGoogle = 0
-articleTotal = 0
+numArticleTotal = 0
 
 rootURL = "https://grith-llc.com/blog/"
 
 #scans the main page of articles
-todoArticles = articleFinder(rootURL)
-for article in todoArticles:
-    articleTotal += 1
+tierOneArticles = articleFinder(rootURL)
+for article in tierOneArticles:
+    articleScanner(article)
+    numArticleTotal += 1
 
+print()
+print("there are a total of " + numArticleTotal + "articles.")
+print()
+print("there are a total of " + adTotalAmazon + "Amazon Ads.")
+print()
+print("there are a total of " + adTotalGoogle + "Google Ads.")
 
 footer = ['Extra Credit Program','Mission Complete']
 header_footer(footer)
