@@ -36,6 +36,10 @@ class urlData:
     def __init__(self):
         self.amazonAd = 0
         self.googleAd = 0
+        self.urlFound = []
+
+    def toString(self):
+        print("These are the url's found withing the article: \n\t")
 
 
 #function to find all article urls from a page.
@@ -58,6 +62,24 @@ def articleFinder(inputURL):
         articles.append(articleURL)
 
     return articles
+
+def articleScanner(inputURL)
+    #requests from the url the html
+    r = requests.get(inputURL)
+
+    #parses it using beautifulsoup
+    soup = BeautifulSoup(r.text, 'html.parser')
+
+    parsedData = new urlData()
+
+    #counts all <div> tags that have the class 'adsbygoogle'
+    for tempgoogAd in soup.find_all('div',{'class':'adsbygoogle'})
+        parsedData.googleAd += 1
+
+    for tempamazAd in soup.find_all('a')
+        if amazAd.get('href') == 
+
+    return parsedData
 
 #function that will scan a url and provide a count of
 #few variables to start it up
