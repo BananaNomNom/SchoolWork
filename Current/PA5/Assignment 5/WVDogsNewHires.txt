@@ -1,0 +1,10 @@
+NAME			JOB-TITLE		
+Snoopy			Pilot			
+Charlie-Brown		Greeter			
+Lucy			Counselor		
+Linus			Musician	
+Franklin			BusinessOperations	
+Luke			Security		
+Rey			Versatilist
+Finn			FacilitiesManager			
+Julia-Child		Chef 
