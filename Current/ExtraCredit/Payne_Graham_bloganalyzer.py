@@ -37,8 +37,10 @@ header_footer(header)
 
 #importing
 from urllib.error import HTTPError
-import requests
 from bs4 import BeautifulSoup
+import re
+import requests
+
 
 class urlData:
     def __init__(self):
@@ -54,6 +56,24 @@ class urlData:
         print("There are " + str(self.amazonAd) + " Amazon Ads in this article.")
         print()
         print("There are " + str(self.googleAd) + " Google Ads in this article.")
+
+#a list of words that do note denote an article
+#used to filter urls
+blacklist = ['product-category',        
+    'products',
+    'shop',
+    'category',
+    'authors',
+    'author',
+    'comment',
+    'jacob-cox',
+    'about-us',
+    'blog',
+    'wp-login',
+    'contact-us',
+    'cart',
+    'privacy-policy-2',
+    'terms-of-use']
 
 #function to find all article urls from a page.
 #returns a list
@@ -72,13 +92,28 @@ def articleFinder(inputURL):
 
     #empty list for urls found from the root page
     articles = []
+    tempURL = ""
 
-    #finds all <article> elements
-    for article in soup.find_all('article'):
-        #finds the first <a> element child of the <article> element
-        #& gets the url from the <a> element from the article.
-        articleURL = article.find('a', recursive=False).get('href')
-        articles.append(articleURL)
+    #finds all <a> elements
+    for article in soup.find_all('a', recursive=True):
+        #gets the href value from the <a> element
+        articleURL = article.get('href')
+
+        #first a statement that makes sure the url has the specified domain.
+        if bool(re.match(r'https://grith-llc\.com/.*', articleURL)):
+
+            #makes sure the url doesn't have any word that is also in the blacklist
+            if not any(word in articleURL for word in blacklist):
+
+                #filters out urls that are only the based domain
+                if not bool(re.match(r'^https:\/\/grith-llc\.com\/$', articleURL)):
+
+                    #filters out duplicates that may exist from same parent
+                    if not articleURL == tempURL:
+
+                        #finaly appends it to a list of articles
+                        articles.append(articleURL)
+                        tempURL = articleURL
 
     return articles
 
@@ -95,22 +130,33 @@ def articleScanner(inputURL):
         print(e.response.text)
 
 
-
     soup = BeautifulSoup(r.text, 'html.parser')
 
     parsedData = urlData()
+    tempURL = ""
 
-    #finds all <article> elements
-    for article in soup.find_all('article'):
-        #finds the first <a> element child of the <article> element
-        #& gets the url from the <a> element from the article.
-        try:
-            print("i tried")
-            articleURL = article.find('a', recursive=True).get('href')
-            parsedData.append(articleURL)
-        except AttributeError:
-            pass
-        
+
+    #finds all <a> elements
+    for article in soup.find_all('a', recursive=True):
+        #gets the href value from the <a> element
+        articleURL = article.get('href')
+
+        #first a statement that makes sure the url has the specified domain.
+        if bool(re.match(r'https://grith-llc\.com/.*', articleURL)):
+
+            #makes sure the url doesn't have any word that is also in the blacklist
+            if not any(word in articleURL for word in blacklist):
+
+                #filters out urls that are only the based domain
+                if not bool(re.match(r'^https:\/\/grith-llc\.com\/$', articleURL)):
+
+                    #filters out duplicates that may exist from same parent
+                    if not articleURL == tempURL:
+                        
+                        #finaly appends it to a list in the parsedData object
+                        parsedData.urlFound.append(articleURL)
+                        tempURL = articleURL
+                    
 
     #counts all <div> tags that have the class 'adsbygoogle'
     for tempgoogAd in soup.find_all('ins',{'class':'adsbygoogle'}):
@@ -130,7 +176,7 @@ numArticleTotal = 0
 
 rootURL = "https://grith-llc.com/blog/"
 
-#scans the main page of articles
+#scans the main page for articles
 tierOneArticles = articleFinder(rootURL)
 print("Here are the main pages blogs found: ")
 for article in tierOneArticles:
@@ -138,11 +184,15 @@ for article in tierOneArticles:
 
 print()
 
+#scans each article for interested values
 for article in tierOneArticles:
     tempVar = articleScanner(article)
+
+    # takes the temperary object and extracts the useful information
     adTotalAmazon += tempVar.amazonAd
     adTotalGoogle += tempVar.googleAd
     numArticleTotal += len(tempVar.urlFound) + 1
+
 
 print()
 print("there are a total of " + str(numArticleTotal) + " articles.")
