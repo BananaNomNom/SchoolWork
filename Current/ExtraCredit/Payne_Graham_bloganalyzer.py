@@ -174,11 +174,16 @@ adTotalAmazon = 0
 adTotalGoogle = 0
 numArticleTotal = 0
 
+perPageAmAd = []
+perPageGoAd = []
+perPageBlog = []
+
 rootURL = "https://grith-llc.com/blog/"
 
 #scans the main page for articles
+print("Evauluating Grith-LLC.com/blog")
 tierOneArticles = articleFinder(rootURL)
-print("Here are the main pages blogs found: ")
+print("Found " + str(len(tierOneArticles)) + "blogs on Grith0LLC's Blog Page")
 for article in tierOneArticles:
     print('\t' + article)
 
@@ -189,17 +194,25 @@ for article in tierOneArticles:
     tempVar = articleScanner(article)
 
     # takes the temperary object and extracts the useful information
+    perPageAmAd.append(tempVar.amazonAd)
     adTotalAmazon += tempVar.amazonAd
+    perPageGoAd.append(tempVar.googleAd)
     adTotalGoogle += tempVar.googleAd
-    numArticleTotal += len(tempVar.urlFound) + 1
+    perPageBlog.append(len(tempVar.urlFound))
+    numArticleTotal += len(tempVar.urlFound)
 
 
 print()
-print("there are a total of " + str(numArticleTotal) + " articles.")
+print("Totals: ")
+print("\tBlog Total: " + str(numArticleTotal))
+print("\tAmazon Ad total: " + str(adTotalAmazon))
+print("\tGoogle Ad total: " + str(adTotalGoogle))
+
 print()
-print("there are a total of " + str(adTotalAmazon) + " Amazon Ads.")
-print()
-print("there are a total of " + str(adTotalGoogle) + " Google Ads.")
+print("Averages Per Page: ")
+print("\tBlogs: " + str(sum(perPageBlog)/len(perPageBlog)))
+print("\tAmazon Ads: " + str(sum(perPageAmAd)/len(perPageAmAd)))
+print("\tGoogle Ads: " + str(sum(perPageGoAd)/len(perPageGoAd)))
 
 footer = ['Extra Credit Program','Mission Complete']
 header_footer(footer)
