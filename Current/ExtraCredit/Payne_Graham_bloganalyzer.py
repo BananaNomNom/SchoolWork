@@ -4,7 +4,7 @@
 #Payne_Graham_bloganalyzer.py
 
 # TODO:
-# 1. Convert to regex from beautiful soup for the article finder
+# 1. Convert to regex from beautiful soup for the article finder DONE
 # 2. properly find the amazon ads
 # 3. format output for assignment
 #
