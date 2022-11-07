@@ -5,8 +5,8 @@
 
 # TODO:
 # 1. Convert to regex from beautiful soup for the article finder DONE
-# 2. properly find the amazon ads
-# 3. format output for assignment
+# 2. properly find the amazon ads DONE
+# 3. format output for assignment DONE
 # 4. Provide a Access error output
 #
 
@@ -82,6 +82,7 @@ def articleFinder(inputURL):
     try:    
         #requests from the url the html
         r = requests.get(inputURL)
+        print("Access Issue: None")
 
         #parses it using beautifulsoup
     except HTTPError as e:
@@ -121,11 +122,12 @@ def articleFinder(inputURL):
 
 def articleScanner(inputURL):
 
-    print("Scraping URL: " + inputURL)
+    print("Analyzing URL: " + inputURL)
 
     try:    
         #requests from the url the html
         r = requests.get(inputURL)
+        print("Access Issue: None")
 
         #parses it using beautifulsoup
     except HTTPError as e:
@@ -145,7 +147,7 @@ def articleScanner(inputURL):
 
         #filters for the domain url inside a <a> elements href
         #adding a count to the number of amazon ads and ending this iteration
-        if "ws-na.amazon-adsystem.com" in articleURL:
+        if "amazon.com" in articleURL:
             parsedData.amazonAd += 1
             continue
 
@@ -220,9 +222,9 @@ print("\tGoogle Ad total: " + str(adTotalGoogle))
 
 print()
 print("Averages Per Page: ")
-print("\tBlogs: " + str(sum(perPageBlog)/len(perPageBlog)))
-print("\tAmazon Ads: " + str(sum(perPageAmAd)/len(perPageAmAd)))
-print("\tGoogle Ads: " + str(sum(perPageGoAd)/len(perPageGoAd)))
+print("\tBlogs: " + str(round(numArticleTotal/len(perPageBlog),2)))
+print("\tAmazon Ads: " + str(round(adTotalAmazon/len(perPageAmAd),2)))
+print("\tGoogle Ads: " + str(round(adTotalGoogle/len(perPageGoAd),2)))
 
 footer = ['Extra Credit Program','Mission Complete']
 header_footer(footer)
