@@ -7,7 +7,7 @@
 # 1. Convert to regex from beautiful soup for the article finder DONE
 # 2. properly find the amazon ads DONE
 # 3. format output for assignment DONE
-# 4. Provide a Access error output
+# 4. Provide a Access error output DONE
 #
 
 def header_footer(input):
@@ -41,13 +41,16 @@ from bs4 import BeautifulSoup
 import re
 import requests
 
-
+#this is a class to store values allowing the extraction of 
+#multiple datapoints from a function
 class urlData:
     def __init__(self):
         self.amazonAd = 0
         self.googleAd = 0
         self.urlFound = []
 
+    #testing method before I had the format down.
+    #Abandoned
     def toString(self):
         print("These are the url's found withing the article:")
         for article in self.urlFound:
@@ -79,8 +82,8 @@ blacklist = ['product-category',
 #returns a list
 def articleFinder(inputURL):
 
+    #requests from the url the html
     try:    
-        #requests from the url the html
         r = requests.get(inputURL)
         print("Access Issue: None")
 
@@ -120,37 +123,38 @@ def articleFinder(inputURL):
     articles = [*set(articles)]
     return articles
 
+#A function that scrapes the article for: 
+#       Amazon ads, Google ads, and other articles
 def articleScanner(inputURL):
 
     print("Analyzing URL: " + inputURL)
-
+    #requests from the url the html
     try:    
-        #requests from the url the html
         r = requests.get(inputURL)
-        print("Access Issue: None")
-
-        #parses it using beautifulsoup
+        print("Access Issue: None") 
     except HTTPError as e:
         print(e.response.text)
 
-
+    #parses it using beautifulsoup
     soup = BeautifulSoup(r.text, 'html.parser')
 
     parsedData = urlData()
     tempURL = ""
 
-
+    #Copied and modified from the articleFinder() method
     #finds all <a> elements
     for article in soup.find_all('a', recursive=True):
         #gets the href value from the <a> element
         articleURL = article.get('href')
 
-        #filters for the domain url inside a <a> elements href
-        #adding a count to the number of amazon ads and ending this iteration
-        if "amazon.com" in articleURL:
-            parsedData.amazonAd += 1
-            continue
 
+        #the next two blocks filter for the domain urls inside a <a> elements href
+        #adding a count to the number of amazon ads and ending this iteration
+        #if "amazon-adsystem.com" in articleURL:
+        #    parsedData.amazonAd += 1
+        #    continue
+        
+        
         #first a statement that makes sure the url has the specified domain.
         if bool(re.match(r'https://grith-llc\.com/.*', articleURL)):
 
@@ -167,12 +171,34 @@ def articleScanner(inputURL):
                         parsedData.urlFound.append(articleURL)
                         tempURL = articleURL
                     
+    #finds amazon ads
+    #counts amazon ads using <img> elements that have the url amazon-adsystem.com in them.
+    for tempamazAd in soup.find_all('img'):
+        print('I found an image')
 
-    #counts all <div> tags that have the class 'adsbygoogle'
+        #I need this because apparently there are <img>
+        #elements that do nto have a src attribute. which is strange
+        try:
+            tempamazAd = tempamazAd.get('src')
+            #print(tempamazAd)
+
+            if "amazon-adsystem" in tempamazAd:
+                #print ('+1')
+                parsedData.amazonAd += 1
+        except:
+            continue
+
+        
+        
+    #finds google ads
+    #counts all <ins> tags that have the class 'adsbygoogle'
     for tempgoogAd in soup.find_all('ins',{'class':'adsbygoogle'}):
         parsedData.googleAd += 1
 
+    #test string retired
     #parsedData.toString()
+
+    #Printing Results
     print('Results:')
     print('\t... Blog URLs Detected:\t\t' + str(len(parsedData.urlFound)))
     print('\t... Amazon Ads Detected:\t' + str(parsedData.amazonAd))
@@ -186,15 +212,19 @@ adTotalAmazon = 0
 adTotalGoogle = 0
 numArticleTotal = 0
 
+#making a lists to house values to be used to count how many instances of pages have ads
 perPageAmAd = []
 perPageGoAd = []
 perPageBlog = []
 
+#root url that all other functions will be based on
 rootURL = "https://grith-llc.com/blog/"
 
-#scans the main page for articles
+#scans the main page for articles then stores them into a list
 print("Evauluating Grith-LLC.com/blog")
 tierOneArticles = articleFinder(rootURL)
+
+#prints out the the articles found from the list
 print("Found " + str(len(tierOneArticles)) + "blogs on Grith0LLC's Blog Page")
 for article in tierOneArticles:
     print('\t' + article)
@@ -208,8 +238,10 @@ for article in tierOneArticles:
     # takes the temperary object and extracts the useful information
     perPageAmAd.append(tempVar.amazonAd)
     adTotalAmazon += tempVar.amazonAd
+
     perPageGoAd.append(tempVar.googleAd)
     adTotalGoogle += tempVar.googleAd
+
     perPageBlog.append(len(tempVar.urlFound))
     numArticleTotal += len(tempVar.urlFound)
 
