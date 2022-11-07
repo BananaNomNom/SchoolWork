@@ -174,7 +174,7 @@ def articleScanner(inputURL):
     #finds amazon ads
     #counts amazon ads using <img> elements that have the url amazon-adsystem.com in them.
     for tempamazAd in soup.find_all('img'):
-        print('I found an image')
+        #print('I found an image')
 
         #I need this because apparently there are <img>
         #elements that do nto have a src attribute. which is strange
