@@ -5,7 +5,9 @@
 
 # TODO:
 # 1. Convert to regex from beautiful soup for the article finder DONE
-# 2. properly find the amazon ads DONE
+# 2. properly find the amazon ads DONE?
+#   2a. properly finding google ads DONE?
+#    2b. properly finding blog article urls DONE?
 # 3. format output for assignment DONE
 # 4. Provide a Access error output DONE
 #
@@ -51,18 +53,20 @@ class urlData:
 
     #testing method before I had the format down.
     #Abandoned
-    def toString(self):
+    def toString(self, adcount):
         print("These are the url's found withing the article:")
         for article in self.urlFound:
             print("\t" + article)
-        print()
-        print("There are " + str(self.amazonAd) + " Amazon Ads in this article.")
-        print()
-        print("There are " + str(self.googleAd) + " Google Ads in this article.")
+        if adcount == True:
+            print()
+            print("There are " + str(self.amazonAd) + " Amazon Ads in this article.")
+            print()
+            print("There are " + str(self.googleAd) + " Google Ads in this article.")
 
 #a list of words that do note denote an article
 #used to filter urls
-blacklist = ['product-category',        
+blacklist = ['/product-category',
+    '/product',        
     'products',
     'shop',
     'category',
@@ -182,7 +186,7 @@ def articleScanner(inputURL):
             tempamazAd = tempamazAd.get('src')
             #print(tempamazAd)
 
-            if "amazon-adsystem" in tempamazAd:
+            if "ws-na.amazon-adsystem" in tempamazAd:
                 #print ('+1')
                 parsedData.amazonAd += 1
         except:
@@ -196,7 +200,7 @@ def articleScanner(inputURL):
         parsedData.googleAd += 1
 
     #test string retired
-    #parsedData.toString()
+    parsedData.toString(adcount=False)
 
     #Printing Results
     print('Results:')
