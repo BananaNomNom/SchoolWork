@@ -7,7 +7,7 @@
 # 1. Convert to regex from beautiful soup for the article finder DONE
 # 2. properly find the amazon ads
 # 3. format output for assignment
-#
+# 4. Provide a Access error output
 #
 
 def header_footer(input):
@@ -115,6 +115,8 @@ def articleFinder(inputURL):
                         articles.append(articleURL)
                         tempURL = articleURL
 
+    #removes all duplicates in the url list
+    articles = [*set(articles)]
     return articles
 
 def articleScanner(inputURL):
@@ -141,6 +143,12 @@ def articleScanner(inputURL):
         #gets the href value from the <a> element
         articleURL = article.get('href')
 
+        #filters for the domain url inside a <a> elements href
+        #adding a count to the number of amazon ads and ending this iteration
+        if "ws-na.amazon-adsystem.com" in articleURL:
+            parsedData.amazonAd += 1
+            continue
+
         #first a statement that makes sure the url has the specified domain.
         if bool(re.match(r'https://grith-llc\.com/.*', articleURL)):
 
@@ -162,9 +170,11 @@ def articleScanner(inputURL):
     for tempgoogAd in soup.find_all('ins',{'class':'adsbygoogle'}):
         parsedData.googleAd += 1
 
-    #for tempamazAd in soup.find_all('a')
-    #    if amazAd.get('href') == ""
-    parsedData.toString()
+    #parsedData.toString()
+    print('Results:')
+    print('\t... Blog URLs Detected:\t\t' + str(len(parsedData.urlFound)))
+    print('\t... Amazon Ads Detected:\t' + str(parsedData.amazonAd))
+    print('\t... Google Ads Detected:\t' + str(parsedData.googleAd))
     print()
     return parsedData
 
