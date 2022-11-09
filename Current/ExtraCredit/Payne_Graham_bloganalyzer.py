@@ -71,7 +71,7 @@ def articleFinder(inputURL):
     #used to filter urls
     #I added input URL based on a recommendation
     blacklist = ['product-category', '/product', '/products', '/shop', 
-        '/category', 'authors', 'author', 'comment', 'jacob-cox', 
+        '/category/', '/feed/', 'comment', 'jacob-cox', 
         'about-us', '/blog', 'wp-login', 'contact-us', '/cart', 
         'privacy-policy-2', 'terms-of-use', '#', inputURL]
 
@@ -123,9 +123,10 @@ def articleScanner(inputURL):
     #a list of words that do note denote an article
     #used to filter urls
     blacklist = ['product-category', '/product', '/products', '/shop', 
-        '/category', 'authors', 'author', 'comment', 'jacob-cox', 
-        'about-us', '/blog', 'wp-login', 'contact-us', '/cart', 
+        '/category/', '/feed/', 'author', 'comment', 'jacob-cox', 
+        'about-us', '/blog', 'wp-', 'contact-us', '/cart', 
         'privacy-policy-2', 'terms-of-use', '#', inputURL]
+
 
     print("Analyzing URL: " + inputURL)
     #requests from the url the html
@@ -192,7 +193,7 @@ def articleScanner(inputURL):
     for tempamazAd in soup.find_all('a'):
         try:
             tempamazAd = tempamazAd.get('href')
-            if "amazon.com" in tempamazAd and "/dp" in tempamazAd:
+            if "amazon.com/dp/" in tempamazAd:
                 #print ('+1 a')
                 parsedData.amazonAd += 1
         except:
@@ -205,8 +206,11 @@ def articleScanner(inputURL):
     for tempgoogAd in soup.find_all('ins',{'class':'adsbygoogle'}):
         parsedData.googleAd += 1
 
+    #removes all duplicates in the url list
+    parsedData.urlFound = [*set(parsedData.urlFound)]
+
     #test string retired
-    #parsedData.toString(adcount=False)
+    parsedData.toString(adcount=False)
 
     #Printing Results
     print('Results:')
@@ -237,7 +241,7 @@ tierOneArticles = articleFinder(rootURL)
 
 
 #prints out the the articles found from the list
-print("Found " + str(len(tierOneArticles)) + "blogs on Grith0LLC's Blog Page")
+print("Found " + str(len(tierOneArticles)) + " blogs on Grith-LLC's Blog Page")
 for article in tierOneArticles:
     print('\t' + article)
 
