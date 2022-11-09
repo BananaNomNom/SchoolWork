@@ -43,6 +43,13 @@ from bs4 import BeautifulSoup
 import re
 import requests
 
+#a list of words that do note denote an article
+#used to filter urls
+blacklist = ['amazon_products', '/product', '/products', '/shop', 
+    '/category/', '/feed/', 'author', 'jacob-cox', 
+    'about-us', '/blog', 'wp-', 'contact-us', '/cart', 
+    'privacy', 'terms-of-use', '#']
+
 #this is a class to store values allowing the extraction of 
 #multiple datapoints from a function
 class urlData:
@@ -66,15 +73,10 @@ class urlData:
 #function to find all article urls from a page.
 #returns a list
 def articleFinder(inputURL):
-
-    #a list of words that do note denote an article
-    #used to filter urls
-    #I added input URL based on a recommendation
-    blacklist = ['product-category', '/product', '/products', '/shop', 
-        '/category/', '/feed/', 'comment', 'jacob-cox', 
-        'about-us', '/blog', 'wp-login', 'contact-us', '/cart', 
-        'privacy-policy-2', 'terms-of-use', '#', inputURL]
-
+    
+    #adds inputURL to blacklist
+    blacklist.append(inputURL)
+    
     #requests from the url the html
     try:    
         r = requests.get(inputURL)
@@ -114,19 +116,18 @@ def articleFinder(inputURL):
 
     #removes all duplicates in the url list
     articles = [*set(articles)]
+
+    #removes url from blacklist after done
+    blacklist.remove(inputURL)
+
     return articles
 
 #A function that scrapes the article for: 
 #       Amazon ads, Google ads, and other articles
 def articleScanner(inputURL):
 
-    #a list of words that do note denote an article
-    #used to filter urls
-    blacklist = ['product-category', '/product', '/products', '/shop', 
-        '/category/', '/feed/', 'author', 'comment', 'jacob-cox', 
-        'about-us', '/blog', 'wp-', 'contact-us', '/cart', 
-        'privacy-policy-2', 'terms-of-use', '#', inputURL]
-
+    #adds inputURL to blacklist
+    blacklist.append(inputURL)
 
     print("Analyzing URL: " + inputURL)
     #requests from the url the html
@@ -210,7 +211,10 @@ def articleScanner(inputURL):
     parsedData.urlFound = [*set(parsedData.urlFound)]
 
     #test string retired
-    parsedData.toString(adcount=False)
+    #parsedData.toString(adcount=False)
+
+    #removes url from blacklist after done
+    blacklist.remove(inputURL)
 
     #Printing Results
     print('Results:')
@@ -234,10 +238,10 @@ perPageBlog = []
 #root url that all other functions will be based on
 rootURL = "https://grith-llc.com/blog/"
 
+
 #scans the main page for articles then stores them into a list
 print("Evauluating Grith-LLC.com/blog")
 tierOneArticles = articleFinder(rootURL)
-
 
 
 #prints out the the articles found from the list
