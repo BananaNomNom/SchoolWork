@@ -167,26 +167,24 @@ def articleScanner(inputURL):
     #finds amazon ads
     #counts amazon ads using <img> elements that have the url amazon-adsystem.com in them.
     for tempamazAd in soup.find_all('img'):
-        #print('I found an image')
 
         #I need this because apparently there are <img>
         #elements that do nto have a src attribute. which is strange
         try:
             tempamazAd = tempamazAd.get('src')
             if "ws-na.amazon-adsystem.com" in tempamazAd:
-                print ('+1')
+                #print ('+1 img')
                 parsedData.amazonAd += 1
         except:
             continue
 
     #counts amazon ads using <iframe> elements that have the url amazon-adsystem.com in them.
     for tempamazAd in soup.find_all('iframe'):
-        #print('I found an iframe')
 
         try:
             tempamazAd = tempamazAd.get('src')
             if "ws-na.amazon-adsystem.com" in tempamazAd:
-                print ('+1')
+                #print ('+1 iframe)
                 parsedData.amazonAd += 1
         except:
             continue 
@@ -196,7 +194,7 @@ def articleScanner(inputURL):
         try:
             tempamazAd = tempamazAd.get('href')
             if "amazon.com" in tempamazAd and "/dp" in tempamazAd:
-                print ('+1 Special')
+                #print ('+1 a')
                 parsedData.amazonAd += 1
         except:
             continue
@@ -209,7 +207,7 @@ def articleScanner(inputURL):
         parsedData.googleAd += 1
 
     #test string retired
-    parsedData.toString(adcount=False)
+    #parsedData.toString(adcount=False)
 
     #Printing Results
     print('Results:')
