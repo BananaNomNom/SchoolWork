@@ -57,6 +57,7 @@ print()
 
 timestart = datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S')
 print("The time is " + timestart)
+print()
 
 
 
@@ -65,21 +66,29 @@ print("The time is " + timestart)
 # the current time along with the number of seconds on the clock to
 # the output file.  Close the file.
 
-
-
+def timer():
+    output = open('timer.txt', 'w')
+    output.write(datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S'))
+    output.write('\n13 seconds on the clock!')
+    output.close()
 
 
 
 # Create the calling code for the thread itself. (It executes in here)
 
-
-
+threadObj = threading.Thread(target=timer)
+threadObj.start()
 
 
 # Write a while loop that counts down from 13 seconds on the clock (So unlucky).
 # Ensure a second elapses between each countdown number (hint:  time.sleep).
 
-    
+i=13
+while i >= 0:
+    print(str(i) + ' seconds!')
+    time.sleep(1)
+    i -= 1
+
 
 
 
@@ -88,8 +97,8 @@ print("The time is " + timestart)
 #    YOU MUST CREATE YOUR OWN FLAVOR TEXT; NO COPYING.
 #    Be creative and come up with your own flavor text.
 
-    
-
+print()
+print('Welp time to get back to work.')
 
 
 # End of lab and closing the program
