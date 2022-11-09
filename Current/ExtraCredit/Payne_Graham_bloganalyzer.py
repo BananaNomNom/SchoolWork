@@ -60,27 +60,17 @@ class urlData:
         print()
         print("There are " + str(self.googleAd) + " Google Ads in this article.")
 
-#a list of words that do note denote an article
-#used to filter urls
-blacklist = ['product-category',        
-    'products',
-    'shop',
-    'category',
-    'authors',
-    'author',
-    'comment',
-    'jacob-cox',
-    'about-us',
-    'blog',
-    'wp-login',
-    'contact-us',
-    'cart',
-    'privacy-policy-2',
-    'terms-of-use']
-
 #function to find all article urls from a page.
 #returns a list
 def articleFinder(inputURL):
+
+    #a list of words that do note denote an article
+    #used to filter urls
+    #I added input URL based on a recommendation
+    blacklist = ['product-category', '/product', '/products', '/shop', 
+        '/category', 'authors', 'author', 'comment', 'jacob-cox', 
+        'about-us', '/blog', 'wp-login', 'contact-us', '/cart', 
+        'privacy-policy-2', 'terms-of-use', '#', inputURL]
 
     #requests from the url the html
     try:    
@@ -120,12 +110,20 @@ def articleFinder(inputURL):
                         tempURL = articleURL
 
     #removes all duplicates in the url list
+    print(articles)
     articles = [*set(articles)]
     return articles
 
 #A function that scrapes the article for: 
 #       Amazon ads, Google ads, and other articles
 def articleScanner(inputURL):
+
+    #a list of words that do note denote an article
+    #used to filter urls
+    blacklist = ['product-category', '/product', '/products', '/shop', 
+        '/category', 'authors', 'author', 'comment', 'jacob-cox', 
+        'about-us', '/blog', 'wp-login', 'contact-us', '/cart', 
+        'privacy-policy-2', 'terms-of-use', '#', inputURL]
 
     print("Analyzing URL: " + inputURL)
     #requests from the url the html
@@ -146,14 +144,6 @@ def articleScanner(inputURL):
     for article in soup.find_all('a', recursive=True):
         #gets the href value from the <a> element
         articleURL = article.get('href')
-
-
-        #the next two blocks filter for the domain urls inside a <a> elements href
-        #adding a count to the number of amazon ads and ending this iteration
-        #if "amazon-adsystem.com" in articleURL:
-        #    parsedData.amazonAd += 1
-        #    continue
-        
         
         #first a statement that makes sure the url has the specified domain.
         if bool(re.match(r'https://grith-llc\.com/.*', articleURL)):
@@ -180,10 +170,30 @@ def articleScanner(inputURL):
         #elements that do nto have a src attribute. which is strange
         try:
             tempamazAd = tempamazAd.get('src')
-            #print(tempamazAd)
+            if "ws-na.amazon-adsystem.com" in tempamazAd:
+                print ('+1')
+                parsedData.amazonAd += 1
+        except:
+            continue
 
-            if "amazon-adsystem" in tempamazAd:
-                #print ('+1')
+    #counts amazon ads using <iframe> elements that have the url amazon-adsystem.com in them.
+    for tempamazAd in soup.find_all('iframe'):
+        #print('I found an iframe')
+
+        try:
+            tempamazAd = tempamazAd.get('src')
+            if "ws-na.amazon-adsystem.com" in tempamazAd:
+                print ('+1')
+                parsedData.amazonAd += 1
+        except:
+            continue 
+
+    #due to suggestion I have added this to find another type of amazon ad found in blogs
+    for tempamazAd in soup.find_all('a'):
+        try:
+            tempamazAd = tempamazAd.get('href')
+            if "amazon.com" in tempamazAd and "/dp" in tempamazAd:
+                print ('+1 Special')
                 parsedData.amazonAd += 1
         except:
             continue
@@ -223,6 +233,8 @@ rootURL = "https://grith-llc.com/blog/"
 #scans the main page for articles then stores them into a list
 print("Evauluating Grith-LLC.com/blog")
 tierOneArticles = articleFinder(rootURL)
+
+
 
 #prints out the the articles found from the list
 print("Found " + str(len(tierOneArticles)) + "blogs on Grith0LLC's Blog Page")
