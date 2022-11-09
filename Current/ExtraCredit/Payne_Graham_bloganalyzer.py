@@ -113,7 +113,6 @@ def articleFinder(inputURL):
                         tempURL = articleURL
 
     #removes all duplicates in the url list
-    print(articles)
     articles = [*set(articles)]
     return articles
 
