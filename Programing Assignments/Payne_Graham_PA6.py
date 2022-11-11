@@ -10,7 +10,7 @@ import json
 
 #mode bools
 testingMode = False
-windowsMode = False
+windowsMode = True
 
 # [Do not Change]
 def setup_destination_folder(lastN, file):
@@ -67,7 +67,7 @@ header_footer(header)
 print('\nProcessing folder: .\\Source\\\n')
 #windows file
 if windowsMode:
-    sourceFiles = os.listdir('.\Source')
+    sourceFiles = os.listdir('.\\Source')
 #linux file
 else:
     sourceFiles = os.listdir('./Source')
