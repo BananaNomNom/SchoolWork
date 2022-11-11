@@ -1,1 +1,0 @@
-This "Source" folder holds .txt, .docx, .xlsx and .pdf files.

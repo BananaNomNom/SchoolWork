@@ -12,6 +12,8 @@
 # 4. Provide a Access error output DONE
 #
 
+testingMode = True
+
 def header_footer(input):
     tempInt = 0
     for item in input:
@@ -174,7 +176,8 @@ def articleScanner(inputURL):
         try:
             tempamazAd = tempamazAd.get('src')
             if "ws-na.amazon-adsystem.com" in tempamazAd:
-                #print ('+1 img')
+                if testingMode:
+                    print ('+1 img')
                 parsedData.amazonAd += 1
         except:
             continue
@@ -185,7 +188,8 @@ def articleScanner(inputURL):
         try:
             tempamazAd = tempamazAd.get('src')
             if "ws-na.amazon-adsystem.com" in tempamazAd:
-                #print ('+1 iframe)
+                if testingMode:
+                    print ('+1 iframe')
                 parsedData.amazonAd += 1
         except:
             continue 
@@ -195,7 +199,8 @@ def articleScanner(inputURL):
         try:
             tempamazAd = tempamazAd.get('href')
             if "amazon.com/dp/" in tempamazAd:
-                #print ('+1 a')
+                if testingMode:
+                    print ('+1 a')
                 parsedData.amazonAd += 1
         except:
             continue
@@ -207,11 +212,18 @@ def articleScanner(inputURL):
     for tempgoogAd in soup.find_all('ins',{'class':'adsbygoogle'}):
         parsedData.googleAd += 1
 
+    if testingMode:
+        print('pre-consolidation')
+        for item in parsedData.urlFound:
+            print('\t'+item)
+        print()
+
     #removes all duplicates in the url list
     parsedData.urlFound = [*set(parsedData.urlFound)]
 
     #test string retired
-    #parsedData.toString(adcount=False)
+    if testingMode:
+        parsedData.toString(adcount=False)
 
     #removes url from blacklist after done
     blacklist.remove(inputURL)
@@ -237,12 +249,17 @@ perPageBlog = []
 
 #root url that all other functions will be based on
 rootURL = "https://grith-llc.com/blog/"
+rootURL2 = rootURL + "page/2/"
 
 
 #scans the main page for articles then stores them into a list
 print("Evauluating Grith-LLC.com/blog")
-tierOneArticles = articleFinder(rootURL)
 
+page1 = articleFinder(rootURL)
+page2 = articleFinder(rootURL2)
+tierOneArticles = page1 + page2
+
+tierOneArticles = [*set(tierOneArticles)]
 
 #prints out the the articles found from the list
 print("Found " + str(len(tierOneArticles)) + " blogs on Grith-LLC's Blog Page")
