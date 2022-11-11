@@ -82,7 +82,6 @@ def articleFinder(inputURL):
     #requests from the url the html
     try:    
         r = requests.get(inputURL)
-        print("Access Issue: None")
 
         #parses it using beautifulsoup
     except HTTPError as e:
@@ -166,9 +165,15 @@ def articleScanner(inputURL):
                         #finaly appends it to a list in the parsedData object
                         parsedData.urlFound.append(articleURL)
                         tempURL = articleURL
-                    
+    
+
+    #test amazon ad printout
+    if testingMode:
+        print('Amazon ad types + numbers:')
+
     #finds amazon ads
     #counts amazon ads using <img> elements that have the url amazon-adsystem.com in them.
+    count = 0
     for tempamazAd in soup.find_all('img'):
 
         #I need this because apparently there are <img>
@@ -177,43 +182,56 @@ def articleScanner(inputURL):
             tempamazAd = tempamazAd.get('src')
             if "ws-na.amazon-adsystem.com" in tempamazAd:
                 if testingMode:
-                    print ('+1 img')
+                    count += 1
                 parsedData.amazonAd += 1
         except:
             continue
-
+    
+    #test print
+    if testingMode:
+        print('\t' + str(count) + 'x img')
+    
     #counts amazon ads using <iframe> elements that have the url amazon-adsystem.com in them.
+    count = 0
     for tempamazAd in soup.find_all('iframe'):
-
         try:
             tempamazAd = tempamazAd.get('src')
             if "ws-na.amazon-adsystem.com" in tempamazAd:
                 if testingMode:
-                    print ('+1 iframe')
+                    count += 1
                 parsedData.amazonAd += 1
         except:
             continue 
 
+    #test print
+    if testingMode:
+        print ('\t' + str(count) + 'x iframe')
+
     #due to suggestion I have added this to find another type of amazon ad found in blogs
+    count = 0
     for tempamazAd in soup.find_all('a'):
         try:
             tempamazAd = tempamazAd.get('href')
             if "amazon.com/dp/" in tempamazAd:
                 if testingMode:
-                    print ('+1 a')
+                    count += 1
                 parsedData.amazonAd += 1
         except:
             continue
 
-        
+    #test print
+    if testingMode:
+        print ('\t' + str(count) + 'x a')
+        print()
         
     #finds google ads
     #counts all <ins> tags that have the class 'adsbygoogle'
     for tempgoogAd in soup.find_all('ins',{'class':'adsbygoogle'}):
         parsedData.googleAd += 1
 
+    #testing print that reveals all urls before duplicates are removed
     if testingMode:
-        print('pre-consolidation')
+        print('Pre-consolidation URL list:')
         for item in parsedData.urlFound:
             print('\t'+item)
         print()
@@ -254,6 +272,7 @@ rootURL2 = rootURL + "page/2/"
 
 #scans the main page for articles then stores them into a list
 print("Evauluating Grith-LLC.com/blog")
+print("Access Issue: None")
 
 page1 = articleFinder(rootURL)
 page2 = articleFinder(rootURL2)

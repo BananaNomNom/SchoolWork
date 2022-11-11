@@ -1,0 +1,359 @@
+------------------------------------------------------------
+----------               AIST 2120C               ----------
+----------            Graham Solution             ----------
+----------        Extra Credit Assignment         ----------
+----------             Blog Analyzer              ----------
+------------------------------------------------------------
+Evauluating Grith-LLC.com/blog
+Access Issue: None
+Found 12 blogs on Grith-LLC's Blog Page
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/physically-thrive-with-these-supplements/
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/make-life-easier-with-these-must-have-items/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/wheres-that-tax-refund/
+
+Analyzing URL: https://grith-llc.com/anatomy-of-a-mortgage-loan/
+Access Issue: None
+Amazon ad types + numbers:
+        0x img
+        0x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+Results:
+        ... Blog URLs Detected:         6
+        ... Amazon Ads Detected:        0
+        ... Google Ads Detected:        3
+
+Analyzing URL: https://grith-llc.com/physically-thrive-with-these-supplements/
+Access Issue: None
+Amazon ad types + numbers:
+        0x img
+        20x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+Results:
+        ... Blog URLs Detected:         4
+        ... Amazon Ads Detected:        20
+        ... Google Ads Detected:        1
+
+Analyzing URL: https://grith-llc.com/retirement-is-great-you-can-do-better/
+Access Issue: None
+Amazon ad types + numbers:
+        1x img
+        4x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+Results:
+        ... Blog URLs Detected:         7
+        ... Amazon Ads Detected:        5
+        ... Google Ads Detected:        1
+
+Analyzing URL: https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+Access Issue: None
+Amazon ad types + numbers:
+        0x img
+        4x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+Results:
+        ... Blog URLs Detected:         3
+        ... Amazon Ads Detected:        4
+        ... Google Ads Detected:        0
+
+Analyzing URL: https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+Access Issue: None
+Amazon ad types + numbers:
+        0x img
+        0x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+
+These are the url's found withing the article:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+Results:
+        ... Blog URLs Detected:         7
+        ... Amazon Ads Detected:        0
+        ... Google Ads Detected:        4
+
+Analyzing URL: https://grith-llc.com/make-life-easier-with-these-must-have-items/
+Access Issue: None
+Amazon ad types + numbers:
+        0x img
+        19x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+Results:
+        ... Blog URLs Detected:         5
+        ... Amazon Ads Detected:        19
+        ... Google Ads Detected:        1
+
+Analyzing URL: https://grith-llc.com/excuse-me-can-i-buy-your-house/
+Access Issue: None
+Amazon ad types + numbers:
+        0x img
+        4x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+Results:
+        ... Blog URLs Detected:         4
+        ... Amazon Ads Detected:        4
+        ... Google Ads Detected:        3
+
+Analyzing URL: https://grith-llc.com/glossary-of-real-estate-investment-terms/
+Access Issue: None
+Amazon ad types + numbers:
+        2x img
+        0x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
+Results:
+        ... Blog URLs Detected:         7
+        ... Amazon Ads Detected:        2
+        ... Google Ads Detected:        8
+
+Analyzing URL: https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+Access Issue: None
+Amazon ad types + numbers:
+        3x img
+        0x iframe
+        0x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/great-side-hustles-that-pay/
+Results:
+        ... Blog URLs Detected:         6
+        ... Amazon Ads Detected:        3
+        ... Google Ads Detected:        5
+
+Analyzing URL: https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
+Access Issue: None
+Amazon ad types + numbers:
+        6x img
+        0x iframe
+        5x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+Results:
+        ... Blog URLs Detected:         7
+        ... Amazon Ads Detected:        11
+        ... Google Ads Detected:        2
+
+Analyzing URL: https://grith-llc.com/great-side-hustles-that-pay/
+Access Issue: None
+Amazon ad types + numbers:
+        6x img
+        0x iframe
+        3x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+Results:
+        ... Blog URLs Detected:         6
+        ... Amazon Ads Detected:        9
+        ... Google Ads Detected:        5
+
+Analyzing URL: https://grith-llc.com/wheres-that-tax-refund/
+Access Issue: None
+Amazon ad types + numbers:
+        2x img
+        0x iframe
+        2x a
+
+Pre-consolidation URL list:
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+Results:
+        ... Blog URLs Detected:         7
+        ... Amazon Ads Detected:        4
+        ... Google Ads Detected:        1
+
+
+Totals: 
+        Blog Total: 69
+        Amazon Ad total: 81
+        Google Ad total: 34
+
+Averages Per Page: 
+        Blogs: 5.75
+        Amazon Ads: 6.75
+        Google Ads: 2.83
+------------------------------------------------------------
+----------          Extra Credit Program          ----------
+----------            Mission Complete            ----------
+------------------------------------------------------------
