@@ -5,15 +5,19 @@
 
 # TODO:
 # 1. Convert to regex from beautiful soup for the article finder DONE
-# 2. properly find the amazon ads DONE?
-#   2a. properly finding google ads DONE?
-#    2b. properly finding blog article urls DONE?
+# 2. properly find the amazon ads DONE
+#   2a. properly finding google ads DONE
+#    2b. properly finding blog article urls DONE
 # 3. format output for assignment DONE
 # 4. Provide a Access error output DONE
 #
 
-testingMode = True
+#This bool variable will turn on testing mode or not
+#testing mode will print to console data that was very
+#useful for debugging the program
+testingMode = False
 
+#STOLEN CODE FROM MY OTHER PROGRAMMING ASSIGNMENTS
 def header_footer(input):
     tempInt = 0
     for item in input:
@@ -31,7 +35,7 @@ def header_footer(input):
         print((str(item).center(miniWidth, ' ')).center(baseWidth, '-'))
     
     print("".center(baseWidth,'-'))
-
+#END STOLEN CODE
 
 #Header
 header = ['AIST 2120C','Graham Solution','Extra Credit Assignment','Blog Analyzer']
@@ -60,8 +64,7 @@ class urlData:
         self.googleAd = 0
         self.urlFound = []
 
-    #testing method before I had the format down.
-    #Abandoned
+    # A toString() method that you can have the adcount show or not
     def toString(self, adcount):
         print("These are the url's found withing the article:")
         for article in self.urlFound:
@@ -156,12 +159,9 @@ def articleScanner(inputURL):
                 #filters out urls that are only the based domain
                 if not bool(re.match(r'^https:\/\/grith-llc\.com\/$', articleURL)):
 
-                    #filters out duplicates that may exist from same parent
-                    if not articleURL == tempURL:
-                        
-                        #finaly appends it to a list in the parsedData object
-                        parsedData.urlFound.append(articleURL)
-                        tempURL = articleURL
+                    #finaly appends it to a list in the parsedData object
+                    parsedData.urlFound.append(articleURL)
+                    tempURL = articleURL
     
 
     #test amazon ad printout
@@ -171,7 +171,7 @@ def articleScanner(inputURL):
     testList = []
 
     #finds amazon ads
-    #counts amazon ads using <img> elements that have the url amazon-adsystem.com in them.
+    #counts amazon ads using <img> elements that have the url "ws-na.amazon-adsystem.com" in them.
     count = 0
     for tempamazAd in soup.find_all('img'):
 
@@ -187,7 +187,7 @@ def articleScanner(inputURL):
         except:
             continue
     
-    #test print
+    #test print to show number of <img> elements found
     if testingMode:
         print('\t' + str(count) + 'x img')
     
@@ -204,16 +204,17 @@ def articleScanner(inputURL):
         except:
             continue 
 
-    #test print
+    #test print to show count of <iframe> elements found
     if testingMode:
         print ('\t' + str(count) + 'x iframe')
 
-    #due to suggestion I have added this to find another type of amazon ad found in blogs
+    #This loop finds all <a> elements and filters the resulting url
     count = 0
     for tempamazAd in soup.find_all('a'):
         try:
             tempamazAd = tempamazAd.get('href')
             if "www.amazon.com" in  tempamazAd and "/dp/" in tempamazAd:
+                #this if statement catches "duplicate" urls that may appear
                 if "www.amazon.com/dp" in tempamazAd:
                     continue
                 if testingMode:
@@ -223,7 +224,7 @@ def articleScanner(inputURL):
         except:
             continue
 
-    #test print
+    #test print showing the amazon URLs found
     if testingMode:
         print ('\t' + str(count) + 'x a')
         print()
@@ -247,11 +248,11 @@ def articleScanner(inputURL):
     #removes all duplicates in the url list
     parsedData.urlFound = [*set(parsedData.urlFound)]
 
-    #test string retired
+    #test print that shows the post-consolidation url list
     if testingMode:
         parsedData.toString(adcount=False)
 
-    #removes url from blacklist after done
+    #removes the input url from blacklist after done
     blacklist.remove(inputURL)
 
     #Printing Results
@@ -262,7 +263,8 @@ def articleScanner(inputURL):
     print()
     return parsedData
 
-#function that will scan a url and provide a count of
+
+
 #few variables to start it up
 adTotalAmazon = 0
 adTotalGoogle = 0
@@ -275,7 +277,9 @@ perPageBlog = []
 
 #root url that all other functions will be based on
 rootURL = "https://grith-llc.com/blog/"
-rootURL2 = rootURL + "page/2/"
+
+#apparently the second page is not scanned
+#rootURL2 = rootURL + "page/2/"
 
 
 #scans the main page for articles then stores them into a list
@@ -283,6 +287,8 @@ print("Evauluating Grith-LLC.com/blog")
 print("Access Issue: None")
 
 page1 = articleFinder(rootURL)
+
+#commented out due to page 2 being unscanned
 #page2 = articleFinder(rootURL2)
 tierOneArticles = page1 #+ page2
 
