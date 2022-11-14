@@ -47,7 +47,7 @@ import requests
 
 #a list of words that do note denote an article
 #used to filter urls
-blacklist = ['amazon_products', '/product', '/products', '/shop', 
+blacklist = ['amazon_products', '/product-category', '/shop', 
     '/category/', '/feed/', 'author', 'jacob-cox', 
     'about-us', '/blog', 'wp-', 'contact-us', '/cart', 
     'privacy', 'terms-of-use', '#']
@@ -108,12 +108,9 @@ def articleFinder(inputURL):
                 #filters out urls that are only the based domain
                 if not bool(re.match(r'^https:\/\/grith-llc\.com\/$', articleURL)):
 
-                    #filters out duplicates that may exist from same parent
-                    if not articleURL == tempURL:
-
-                        #finaly appends it to a list of articles
-                        articles.append(articleURL)
-                        tempURL = articleURL
+                    #finaly appends it to a list of articles
+                    articles.append(articleURL)
+                    tempURL = articleURL
 
     #removes all duplicates in the url list
     articles = [*set(articles)]
@@ -170,6 +167,8 @@ def articleScanner(inputURL):
     #test amazon ad printout
     if testingMode:
         print('Amazon ad types + numbers:')
+    
+    testList = []
 
     #finds amazon ads
     #counts amazon ads using <img> elements that have the url amazon-adsystem.com in them.
@@ -182,6 +181,7 @@ def articleScanner(inputURL):
             tempamazAd = tempamazAd.get('src')
             if "ws-na.amazon-adsystem.com" in tempamazAd:
                 if testingMode:
+                    testList.append(tempamazAd)
                     count += 1
                 parsedData.amazonAd += 1
         except:
@@ -198,6 +198,7 @@ def articleScanner(inputURL):
             tempamazAd = tempamazAd.get('src')
             if "ws-na.amazon-adsystem.com" in tempamazAd:
                 if testingMode:
+                    testList.append(tempamazAd)
                     count += 1
                 parsedData.amazonAd += 1
         except:
@@ -212,8 +213,11 @@ def articleScanner(inputURL):
     for tempamazAd in soup.find_all('a'):
         try:
             tempamazAd = tempamazAd.get('href')
-            if "amazon.com/dp/" in tempamazAd:
+            if "www.amazon.com" in  tempamazAd and "/dp/" in tempamazAd:
+                if "www.amazon.com/dp" in tempamazAd:
+                    continue
                 if testingMode:
+                    testList.append(tempamazAd)
                     count += 1
                 parsedData.amazonAd += 1
         except:
@@ -222,6 +226,10 @@ def articleScanner(inputURL):
     #test print
     if testingMode:
         print ('\t' + str(count) + 'x a')
+        print()
+        print("Amazon Urls found:")
+        for item in testList:
+            print('\t' + str(item))
         print()
         
     #finds google ads
@@ -275,8 +283,8 @@ print("Evauluating Grith-LLC.com/blog")
 print("Access Issue: None")
 
 page1 = articleFinder(rootURL)
-page2 = articleFinder(rootURL2)
-tierOneArticles = page1 + page2
+#page2 = articleFinder(rootURL2)
+tierOneArticles = page1 #+ page2
 
 tierOneArticles = [*set(tierOneArticles)]
 

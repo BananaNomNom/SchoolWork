@@ -7,45 +7,89 @@
 Evauluating Grith-LLC.com/blog
 Access Issue: None
 Found 12 blogs on Grith-LLC's Blog Page
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/physically-thrive-with-these-supplements/
-        https://grith-llc.com/retirement-is-great-you-can-do-better/
         https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
+        https://grith-llc.com/physically-thrive-with-these-supplements/
+        https://grith-llc.com/wheres-that-tax-refund/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
         https://grith-llc.com/make-life-easier-with-these-must-have-items/
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
-        https://grith-llc.com/great-side-hustles-that-pay/
-        https://grith-llc.com/wheres-that-tax-refund/
 
-Analyzing URL: https://grith-llc.com/anatomy-of-a-mortgage-loan/
+Analyzing URL: https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
 Access Issue: None
 Amazon ad types + numbers:
         0x img
-        0x iframe
+        4x iframe
         0x a
 
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=1735988901&asins=1735988901&linkId=96d774c0050242702cc1b0fa3e15fb5e&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=1734301503&asins=1734301503&linkId=dd8332959c21e484725b1955f4edb978&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=1737371405&asins=1737371405&linkId=bec9959defe81a2012e1a1b15a461429&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=B07PWJ1F7W&asins=B07PWJ1F7W&linkId=266d9b65fbc666623872418f8e6b6ead&show_border=true&link_opens_in_new_window=true
+
 Pre-consolidation URL list:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+Results:
+        ... Blog URLs Detected:         3
+        ... Amazon Ads Detected:        4
+        ... Google Ads Detected:        0
+
+Analyzing URL: https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
+Access Issue: None
+Amazon ad types + numbers:
+        6x img
+        0x iframe
+        5x a
+
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08DHQXVZ9&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01LW8SQ50&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07P1DG58G&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00PL16ASY&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0195LQU2G&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07S4LQWQ2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        https://www.amazon.com/dp/B08DHQXVZ9?&linkCode=li3&tag=grith01-20&linkId=6b879d9a528387b2d9adc47da1ba49dd&language=en_US&ref_=as_li_ss_il
+        https://www.amazon.com/dp/B01LW8SQ50?&linkCode=li3&tag=grith01-20&linkId=83893ae767eb38cd0e868ac717e5fdd3&language=en_US&ref_=as_li_ss_il
+        https://www.amazon.com/dp/B00PL16ASY?&linkCode=li3&tag=grith01-20&linkId=6b48763a03a3bd0f360690c55983306d&language=en_US&ref_=as_li_ss_il
+        https://www.amazon.com/dp/B0195LQU2G?&linkCode=li3&tag=grith01-20&linkId=cd80e405500239584c295d4774994cd1&language=en_US&ref_=as_li_ss_il
+        https://www.amazon.com/dp/B07S4LQWQ2?&linkCode=li3&tag=grith01-20&linkId=cbed88ac62bf300cd080778b3ef232b3&language=en_US&ref_=as_li_ss_il
+
+Pre-consolidation URL list:
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
         https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
         https://grith-llc.com/great-side-hustles-that-pay/
         https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
         https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
 
 These are the url's found withing the article:
         https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
 Results:
-        ... Blog URLs Detected:         6
-        ... Amazon Ads Detected:        0
-        ... Google Ads Detected:        3
+        ... Blog URLs Detected:         7
+        ... Amazon Ads Detected:        11
+        ... Google Ads Detected:        2
 
 Analyzing URL: https://grith-llc.com/physically-thrive-with-these-supplements/
 Access Issue: None
@@ -53,6 +97,28 @@ Amazon ad types + numbers:
         0x img
         20x iframe
         0x a
+
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B0014M1VII&asins=B0014M1VII&linkId=f72abe5401617d8973b0fc59fd042407&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B06WJ56QTM&asins=B06WJ56QTM&linkId=6cf6214cb271258f9f5388b25c8b8ee2&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B0765NPXY6&asins=B0765NPXY6&linkId=760492c0970df92e6fefac506364054b&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B01MQDLB83&asins=B01MQDLB83&linkId=012fec89ef77b74ba285673a22de041b&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B01476IJXC&asins=B01476IJXC&linkId=fd4a8a16faf8085cac8c596e62a54adb&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B086DS2NLX&asins=B086DS2NLX&linkId=1cd4ec2d78040d9ecf7751d5c3acd800&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B000GIQS0W&asins=B000GIQS0W&linkId=9b0afdfc1455103a33315a0210a2e8cf&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B00GL2HMES&asins=B00GL2HMES&linkId=f5a2507d2e8a7e0b1dc4dec6ab2f41a8&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B00E9M4XFI&asins=B00E9M4XFI&linkId=804438d53172e4661dbc8a0af592901d&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09L59WCCD&asins=B09L59WCCD&linkId=49988faf6436e66aa515af8016693796&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B08SWM51LW&asins=B08SWM51LW&linkId=f0521aacea1b4feb7582a0b6dbb8230e&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B01MYBN67O&asins=B01MYBN67O&linkId=51c4867eebd748413add07e319eb0493&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B00JXP38MU&asins=B00JXP38MU&linkId=b3d6597e933e632174eb2d8e119bc345&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B0128VQT7Q&asins=B0128VQT7Q&linkId=65bc639d2865a1006981e39a138cb104&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B01MV3Z05C&asins=B01MV3Z05C&linkId=ec73eae55f764f098db636baee5104d5&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B00ITXWNUK&asins=B00ITXWNUK&linkId=8ee9b029610b21fa2e0479d603d94204&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B075F7NNFP&asins=B075F7NNFP&linkId=b064ff349a8d1a4d0e269641987e5f78&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B01GV4O37E&asins=B01GV4O37E&linkId=4192dc84444ad4deeb8b96a4947fca84&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B0747G31KF&asins=B0747G31KF&linkId=2d0bb09440a5ee6a9e87345dd9072dff&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B003SYB4J6&asins=B003SYB4J6&linkId=118d37f0bb9c840d44dce650d7562412&show_border=true&link_opens_in_new_window=true
 
 Pre-consolidation URL list:
         https://grith-llc.com/anatomy-of-a-mortgage-loan/
@@ -70,12 +136,18 @@ Results:
         ... Amazon Ads Detected:        20
         ... Google Ads Detected:        1
 
-Analyzing URL: https://grith-llc.com/retirement-is-great-you-can-do-better/
+Analyzing URL: https://grith-llc.com/wheres-that-tax-refund/
 Access Issue: None
 Amazon ad types + numbers:
-        1x img
-        4x iframe
-        0x a
+        2x img
+        0x iframe
+        2x a
+
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1119858453&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1119838479&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        https://www.amazon.com/dp/1119858453?&linkCode=li3&tag=grith01-20&linkId=5b9fbd669ededdc1c31105b3975e3040&language=en_US&ref_=as_li_ss_il
+        https://www.amazon.com/dp/1119838479?&linkCode=li3&tag=grith01-20&linkId=667e50e8e7b56b2a3f647e2778d58bad&language=en_US&ref_=as_li_ss_il
 
 Pre-consolidation URL list:
         https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
@@ -87,38 +159,151 @@ Pre-consolidation URL list:
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
 
 These are the url's found withing the article:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
         https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
 Results:
         ... Blog URLs Detected:         7
-        ... Amazon Ads Detected:        5
+        ... Amazon Ads Detected:        4
         ... Google Ads Detected:        1
 
-Analyzing URL: https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+Analyzing URL: https://grith-llc.com/glossary-of-real-estate-investment-terms/
+Access Issue: None
+Amazon ad types + numbers:
+        2x img
+        0x iframe
+        0x a
+
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0195LQU2G&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07S4LQWQ2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+
+Pre-consolidation URL list:
+        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+Results:
+        ... Blog URLs Detected:         7
+        ... Amazon Ads Detected:        2
+        ... Google Ads Detected:        8
+
+Analyzing URL: https://grith-llc.com/great-side-hustles-that-pay/
+Access Issue: None
+Amazon ad types + numbers:
+        6x img
+        0x iframe
+        3x a
+
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08TT8RWJL&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00PL16ASY&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0195LQU2G&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07S4LQWQ2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1717883699&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00I07B194&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        https://www.amazon.com/dp/B00PL16ASY?&linkCode=li3&tag=grith01-20&linkId=044501780c612aeb3d2aba2caf8c7bc1&language=en_US&ref_=as_li_ss_il
+        https://www.amazon.com/dp/B0195LQU2G?&linkCode=li3&tag=grith01-20&linkId=04a056a7a8de50fd1c4b805c345399db&language=en_US&ref_=as_li_ss_il
+        https://www.amazon.com/dp/B07S4LQWQ2?&linkCode=li3&tag=grith01-20&linkId=e450b7c0bc697b843a3ad2b1ba9f3e30&language=en_US&ref_=as_li_ss_il
+
+Pre-consolidation URL list:
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+Results:
+        ... Blog URLs Detected:         6
+        ... Amazon Ads Detected:        9
+        ... Google Ads Detected:        5
+
+Analyzing URL: https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+Access Issue: None
+Amazon ad types + numbers:
+        3x img
+        0x iframe
+        0x a
+
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1620235218&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1707402981&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08K3Q1CVP&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+
+Pre-consolidation URL list:
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+Results:
+        ... Blog URLs Detected:         6
+        ... Amazon Ads Detected:        3
+        ... Google Ads Detected:        5
+
+Analyzing URL: https://grith-llc.com/anatomy-of-a-mortgage-loan/
 Access Issue: None
 Amazon ad types + numbers:
         0x img
-        4x iframe
+        0x iframe
         0x a
 
+Amazon Urls found:
+
 Pre-consolidation URL list:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
 
 These are the url's found withing the article:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
 Results:
-        ... Blog URLs Detected:         3
-        ... Amazon Ads Detected:        4
-        ... Google Ads Detected:        0
+        ... Blog URLs Detected:         6
+        ... Amazon Ads Detected:        0
+        ... Google Ads Detected:        3
 
 Analyzing URL: https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
 Access Issue: None
@@ -127,6 +312,8 @@ Amazon ad types + numbers:
         0x iframe
         0x a
 
+Amazon Urls found:
+
 Pre-consolidation URL list:
         https://grith-llc.com/retirement-is-great-you-can-do-better/
         https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
@@ -137,13 +324,13 @@ Pre-consolidation URL list:
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
 
 These are the url's found withing the article:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
         https://grith-llc.com/anatomy-of-a-mortgage-loan/
         https://grith-llc.com/retirement-is-great-you-can-do-better/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
 Results:
         ... Blog URLs Detected:         7
         ... Amazon Ads Detected:        0
@@ -156,6 +343,27 @@ Amazon ad types + numbers:
         19x iframe
         0x a
 
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09HZ9NH4V&asins=B09HZ9NH4V&linkId=1eaa609e90a37b984263a3605e9ae2ac&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B0052PHBF0&asins=B0052PHBF0&linkId=5a22fa7d762f753c197486e5ae0e2ca4&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B008CII8KG&asins=B008CII8KG&linkId=5b3d89bdaeca41f61299573085bf4a3e&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B00022749Q&asins=B00022749Q&linkId=639e4763ca7cfa0c78503da42ad5724c&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09WR693WX&asins=B09WR693WX&linkId=3f31d417fdb03ebe701d1b8b6384e97a&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09NBY1V1Y&asins=B09NBY1V1Y&linkId=6e79e319be8b019f70143e12d0f35619&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09WCYCZ26&asins=B09WCYCZ26&linkId=ba91309ecd02215a6260d60888e3f830&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09M8J6GNX&asins=B09M8J6GNX&linkId=463816f38243a1cbdad7e9b9c9e9fe78&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09L695MK2&asins=B09L695MK2&linkId=736e144db8806eaba68438abce910e7d&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09963HD1L&asins=B09963HD1L&linkId=8eb9e639fe3d0a267f290f438a4e8b32&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B09XBL39QW&asins=B09XBL39QW&linkId=6260766e1e8336bf60d797a2b5b9f296&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B07L6LL95P&asins=B07L6LL95P&linkId=8cbbdcd94345cc43268999bf358f4cc3&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B07L6MR7QB&asins=B07L6MR7QB&linkId=16657a2826e01ae96af9954018fa5522&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B07L6MG5VJ&asins=B07L6MG5VJ&linkId=f60737a432dcfba82fca63c7c09c80b8&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B006HFJA12&asins=B006HFJA12&linkId=aa0388af2dfc74ca9d82c96bafee1f51&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B08C9XFP3D&asins=B08C9XFP3D&linkId=e8a557711a8eda5cafcbbdce0ddf8469&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B07YNHZ78F&asins=B07YNHZ78F&linkId=2cd43600b1c73d3b55bb98c2b79e6cd8&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B07YNJZY9N&asins=B07YNJZY9N&linkId=f23b600235952e662c8be30959fefe5c&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith03-20&language=en_US&marketplace=amazon&region=US&placement=B07YNKW95N&asins=B07YNKW95N&linkId=11cdad13cd54062cb8e38848bd5ce315&show_border=true&link_opens_in_new_window=true
+
 Pre-consolidation URL list:
         https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
         https://grith-llc.com/retirement-is-great-you-can-do-better/
@@ -165,14 +373,50 @@ Pre-consolidation URL list:
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
 
 These are the url's found withing the article:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/retirement-is-great-you-can-do-better/
         https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
         https://grith-llc.com/excuse-me-can-i-buy-your-house/
 Results:
         ... Blog URLs Detected:         5
         ... Amazon Ads Detected:        19
+        ... Google Ads Detected:        1
+
+Analyzing URL: https://grith-llc.com/retirement-is-great-you-can-do-better/
+Access Issue: None
+Amazon ad types + numbers:
+        1x img
+        4x iframe
+        0x a
+
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09K1Z2XPR&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=grith01-20&language=en_US
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=B0195LQU2G&asins=B0195LQU2G&linkId=f6af3a09ca743d12def5e73515be9fe9&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=1947200976&asins=1947200976&linkId=ca4d0266a5e7a1b50930c7cc64f47503&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=1947200089&asins=1947200089&linkId=deddbc39375234f4a802dd01890c86a5&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=B08GGD5933&asins=B08GGD5933&linkId=824f8faedca76cee0afbd3ffb12f849a&show_border=true&link_opens_in_new_window=true
+
+Pre-consolidation URL list:
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+
+These are the url's found withing the article:
+        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/glossary-of-real-estate-investment-terms/
+        https://grith-llc.com/great-side-hustles-that-pay/
+        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
+        https://grith-llc.com/anatomy-of-a-mortgage-loan/
+        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
+        https://grith-llc.com/excuse-me-can-i-buy-your-house/
+Results:
+        ... Blog URLs Detected:         7
+        ... Amazon Ads Detected:        5
         ... Google Ads Detected:        1
 
 Analyzing URL: https://grith-llc.com/excuse-me-can-i-buy-your-house/
@@ -182,6 +426,12 @@ Amazon ad types + numbers:
         4x iframe
         0x a
 
+Amazon Urls found:
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=B07P1DG58G&asins=B07P1DG58G&linkId=fea7911bf50baaa53128be0aabe4490b&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=1118807529&asins=1118807529&linkId=ffff7b6f0464942271f190402a95f7b9&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=B07PBXS46T&asins=B07PBXS46T&linkId=3d01fb0ce9e4874fe76fc3274220f0dd&show_border=true&link_opens_in_new_window=true
+        //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=grith01-20&language=en_US&marketplace=amazon&region=US&placement=1718067054&asins=1718067054&linkId=9f2a63c7b6f70a3b619b104ef7ef3187&show_border=true&link_opens_in_new_window=true
+
 Pre-consolidation URL list:
         https://grith-llc.com/retirement-is-great-you-can-do-better/
         https://grith-llc.com/anatomy-of-a-mortgage-loan/
@@ -189,159 +439,14 @@ Pre-consolidation URL list:
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
 
 These are the url's found withing the article:
-        https://grith-llc.com/retirement-is-great-you-can-do-better/
         https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
+        https://grith-llc.com/retirement-is-great-you-can-do-better/
         https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
         https://grith-llc.com/anatomy-of-a-mortgage-loan/
 Results:
         ... Blog URLs Detected:         4
         ... Amazon Ads Detected:        4
         ... Google Ads Detected:        3
-
-Analyzing URL: https://grith-llc.com/glossary-of-real-estate-investment-terms/
-Access Issue: None
-Amazon ad types + numbers:
-        2x img
-        0x iframe
-        0x a
-
-Pre-consolidation URL list:
-        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-
-These are the url's found withing the article:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
-        https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
-Results:
-        ... Blog URLs Detected:         7
-        ... Amazon Ads Detected:        2
-        ... Google Ads Detected:        8
-
-Analyzing URL: https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-Access Issue: None
-Amazon ad types + numbers:
-        3x img
-        0x iframe
-        0x a
-
-Pre-consolidation URL list:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/great-side-hustles-that-pay/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-
-These are the url's found withing the article:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/great-side-hustles-that-pay/
-Results:
-        ... Blog URLs Detected:         6
-        ... Amazon Ads Detected:        3
-        ... Google Ads Detected:        5
-
-Analyzing URL: https://grith-llc.com/build-your-investment-portfolio-with-wholesale-real-estate/
-Access Issue: None
-Amazon ad types + numbers:
-        6x img
-        0x iframe
-        5x a
-
-Pre-consolidation URL list:
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-
-These are the url's found withing the article:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
-Results:
-        ... Blog URLs Detected:         7
-        ... Amazon Ads Detected:        11
-        ... Google Ads Detected:        2
-
-Analyzing URL: https://grith-llc.com/great-side-hustles-that-pay/
-Access Issue: None
-Amazon ad types + numbers:
-        6x img
-        0x iframe
-        3x a
-
-Pre-consolidation URL list:
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-
-These are the url's found withing the article:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-Results:
-        ... Blog URLs Detected:         6
-        ... Amazon Ads Detected:        9
-        ... Google Ads Detected:        5
-
-Analyzing URL: https://grith-llc.com/wheres-that-tax-refund/
-Access Issue: None
-Amazon ad types + numbers:
-        2x img
-        0x iframe
-        2x a
-
-Pre-consolidation URL list:
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-
-These are the url's found withing the article:
-        https://grith-llc.com/anatomy-of-a-mortgage-loan/
-        https://grith-llc.com/read-this-to-get-ahead-of-your-military-transition/
-        https://grith-llc.com/fired-here-are-seven-factors-that-get-you-rehired-quickly/
-        https://grith-llc.com/excuse-me-can-i-buy-your-house/
-        https://grith-llc.com/glossary-of-real-estate-investment-terms/
-        https://grith-llc.com/what-to-know-about-va-loans-and-rental-property/
-        https://grith-llc.com/great-side-hustles-that-pay/
-Results:
-        ... Blog URLs Detected:         7
-        ... Amazon Ads Detected:        4
-        ... Google Ads Detected:        1
 
 
 Totals: 
